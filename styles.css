@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero{
+    background-color: #1F2937;
+    color: #F9FAf8;
+}
+
+
+header ul{
+    list-style-type:none ;
+}
+header ul li a{
+    color: #F9FAf8;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    padding: 10px;
+}
+header .header-left{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+header .header-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.header-section-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+}
+.header-section-right{
+    flex: 1;
+    padding-bottom:20px;
+}
+
+.header-section-right img{
+    padding: 30px;
+    width: 70%;
+    max-width: 500px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid #3881f64c 5px;
+    border-radius: 15px;
+    min-width: 270px;
+    min-height: 270px;
+    margin-bottom: 20px;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.page-container-title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 50px;
+}
+
+.box .subtext{
+    margin-top: 50px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    color: #F9FAf8;
+    margin-top: 20px;
+}
+
+
+.quote-container{
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 30px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.quote h3{
+    text-align: right;
+}
+
+
+footer{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #E5E7EB;
+
+
+}
